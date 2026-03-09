@@ -1,25 +1,28 @@
-**# ci-demo**
+# ci-demo
 
-Um pipeline simples e objetivo para um trabalho de Continuous Integration utilizando GitHub Actions.  
-**# 2. Objetivo da atividade**
+Um pipeline simples e objetivo para um trabalho de Continuous Integration utilizando GitHub Actions.    
+
+# 2. Objetivo da atividade
 
 Atividade para treinamento e pratica de workflow de github actions e criação de pipeline .  
-**#3. Estrutura do projeto**
+#3. Estrutura do projeto
 
-**Arquivos utlizados no trablho.**
+#Códigos utlizados no trablho
 
-*.github/workflows/ci.yml*
-*name: CI Example*
+```yaml
+.github/workflows/ci.yml
 
-*on: [push]*
+name: CI Example
+on: [push]
 
-*jobs:*
-  *first-job:*
-    *runs-on: ubuntu-latest*
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
 
-    *steps:*
-      *- name: Print message*
-        *run: echo "Pipeline executado com sucesso!"*
+    steps:
+      - name: Print message
+        run: echo "Pipeline executado com sucesso!"
+```
 *Expicação do código:*
 
 **name: CI Test**
@@ -48,7 +51,7 @@ Define a sequência de passos que o job vai seguir.
 É o comando executado no passo. Neste caso, ele apenas imprime uma mensagem no terminal do
 pipeline.
 
-**Lição Aprendida**
+#Lição Aprendida
 Graças aos ensinamentos da aula, tivemos uma noção de como utilizar o actions do github e tambem como documentar em markdown, tivemos orientação, correção e apoio na atividade de agora.
 script.sh
 README.md
