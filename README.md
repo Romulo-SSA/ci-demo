@@ -52,6 +52,9 @@ Define a sequência de passos que o job vai seguir.
 pipeline.
 
 ## Lição Aprendida
-Graças aos ensinamentos da aula, tivemos uma noção de como utilizar o actions do github e tambem como documentar em markdown, tivemos orientação, correção e apoio na atividade de agora.
+Graças aos ensinamentos da aula, tivemos uma noção de como utilizar o actions do github e tambem como documentar em markdown, tivemos orientação, correção e apoio na atividade de agora. 
+
+
+
 script.sh
 README.md
